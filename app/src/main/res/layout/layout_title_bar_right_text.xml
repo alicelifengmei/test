@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px_96"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/title_bar_rl_left"
+        android:layout_width="@dimen/px_150"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/title_bar_iv_left"
+            android:layout_width="@dimen/px_18"
+            android:layout_height="@dimen/px_34"
+            android:layout_centerVertical="true"
+            android:src="@drawable/business_pack_design_icon"
+            android:layout_marginLeft="@dimen/px_30"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/title_bar_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/px_10"
+        android:layout_marginRight="@dimen/px_10"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="首页"
+        android:textSize="@dimen/px_34"
+        android:textColor="@color/color_333333"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/title_bar_rl_right"
+        android:layout_width="@dimen/px_150"
+        android:layout_height="fill_parent"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/title_bar_tv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_30"
+            android:textSize="@dimen/px_32"
+            android:textColor="@color/color_007aff"
+            />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

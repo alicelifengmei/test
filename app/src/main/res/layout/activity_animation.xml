@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/animation_titlebar"
+        layout="@layout/layout_titlebar" />
+    <Button
+        android:id="@+id/animation_btn_start"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="开始动画"
+        android:layout_below="@+id/animation_titlebar"
+        />
+
+    <com.example.administrator.testapplication.view.HorizontalListView
+        android:id="@+id/animation_horizontal_lv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layoutAnimation="@anim/list_anim_layout"
+        android:layout_below="@+id/animation_btn_start"
+        />
+    <Button
+        android:id="@+id/animation_btn_start1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="依次进入"
+        android:layout_below="@+id/animation_horizontal_lv"
+        />
+
+    <com.example.administrator.testapplication.view.HorizontalListView
+        android:id="@+id/animation_horizontal_lv1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/animation_btn_start1"
+        />
+    <com.example.administrator.testapplication.view.HorizontalListView
+        android:id="@+id/animation_horizontal_lv2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/animation_btn_start1"
+        />
+
+        <Button
+            android:id="@+id/animation_btn_start2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="移动"
+            android:layout_below="@+id/animation_horizontal_lv2"
+            />
+        <Button
+            android:id="@+id/animation_btn_start3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="缩放"
+            android:layout_below="@+id/animation_btn_start2"
+            />
+
+    <TextView
+        android:id="@+id/animation_tv_a"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="A内容"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:background="@color/color_999999"
+        android:layout_below="@+id/animation_btn_start3"
+        />
+    <TextView
+        android:id="@+id/animation_tv_b"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="B内容"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:background="@color/color_999999"
+        android:layout_below="@+id/animation_tv_a"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GridLayout测试"
+        android:visibility="gone"
+        />
+    <GridLayout
+        android:id="@+id/hx_keeper_gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="@dimen/px_104"
+        android:layout_marginRight="@dimen/px_30"
+        android:layout_marginTop="@dimen/px_20"
+        android:columnCount="4"
+        android:visibility="gone"
+        android:orientation="horizontal" />
+    <!--<com.example.administrator.testapplication.view.ImageDisplayViewGroup-->
+        <!--android:id="@+id/displayviewgroup"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+    <com.example.administrator.testapplication.view.MyViewGroup
+        android:id="@+id/myviewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

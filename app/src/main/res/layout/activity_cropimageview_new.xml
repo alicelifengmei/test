@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <include
+        android:id="@+id/cropimageview_title"
+        layout="@layout/layout_title_bar_right_text" />
+
+
+    <ImageView
+        android:id="@+id/cropimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/business_pack_design_icon"
+        android:layout_below="@+id/cropimageview_title" />
+
+    <com.example.administrator.testapplication.view.CircleZhezhaoView
+        android:id="@+id/circlezhe"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cropimageview_title"
+        app:backgroud_color="@color/color_66000000"
+        app:circle_radius="@dimen/px_200"
+        app:circle_stroke_color="@color/color_ffffff"
+        app:circle_stroke_width="@dimen/px_4" />
+
+    <com.example.administrator.testapplication.view.CropCircleImageView
+        android:id="@+id/circlezhe1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cropimageview_title"
+        app:backgroud_color="@color/color_66000000"
+        app:circle_radius="@dimen/px_200"
+        app:circle_stroke_color="@color/color_ffffff"
+        app:circle_stroke_width="@dimen/px_4" />
+
+
+</RelativeLayout>

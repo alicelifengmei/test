@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="transparent">#F8F8F8</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#F8F8F8</color>
+
+    <color name="color_ffffff">#FFFFFF</color>
+    <color name="color_959595">#959595</color>
+    <color name="color_fa193e">#fa193e</color>
+    <color name="color_007aff">#007aff</color>
+    <color name="color_808080">#808080</color>
+    <color name="color_f56121">#f56121</color>
+    <color name="color_cab364">#cab346</color>
+
+    <!-- 个人信息页校验红色提示字体颜色-->
+    <color name="color_e54640">#e54640</color>
+
+
+
+
+    <!-- 所有灰色景色-->
+    <color name="color_eaebf0">#eaebf0</color>
+    <!-- 首页灰条背景色-->
+    <color name="color_eef1f5">#eef1f5</color>
+    <!-- 首页“最新案例”字色-->
+    <color name="color_666666">#666666</color>
+    <!-- 首页“NEW CASES”字色-->
+    <color name="color_333333">#333333</color>
+    <!--最新案例列表间隔线颜色-->
+    <color name="color_e5e5e5">#e5e5e5</color>
+    <color name="color_00e5e5e5">#00e5e5e5</color>
+    <!--案例详情页底部文字半透明灰色背景-->
+    <color name="color_66000000">#66000000</color>
+    <!--案例详情页底部图片页数文字灰色字号-->
+    <color name="color_999999">#999999</color>
+    <!--wheel分割线的颜色-->
+    <color name="province_line_border">#e5e5e5</color>
+    <!-- hint字体颜色-->
+    <color name="color_cccccc">#cccccc</color>
+    <!-- 最新案例列表底部阴影色-->
+    <color name="color_b2c4c4c4">#b2c4c4c4</color>
+    <!-- 最新案例列表最新颜色值-->
+    <color name="color_4c4c4c">#4c4c4c</color>
+    <!--  -->
+    <color name="color_4c000000">#4c000000</color>
+    <!-- 我的账户，上面蓝色背景-->
+    <color name="color_2f83df">#2f83df</color>
+    <!-- 引导页灰色背景-->
+    <color name="color_cc000000">#cc000000</color>
+    <!--我的圆形头像的透明圆环-->
+    <color name="color_22000000">#22000000</color>
+
+</resources>
